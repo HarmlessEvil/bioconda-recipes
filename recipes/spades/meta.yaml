@@ -14,7 +14,7 @@ source:
     - 0001-link-rt-for-static-jemalloc.patch  # [linux]
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -59,7 +59,7 @@ about:
     genomes projects.
 
     SPAdes works with Ion Torrent, PacBio, Oxford Nanopore, and Illumina paired-end, mate-pairs and
-    single reads
+    single reads. True
 
   dev_url: https://github.com/ablab/spades
   doc_url: http://cab.spbu.ru/files/release{{version}}/manual.html
